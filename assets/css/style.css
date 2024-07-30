@@ -39,7 +39,7 @@ This files table contents are outlined below>>>>>
 ** - Choose Area Style
 ** - Newsletter Area Style
 ** - Page Banner Area Style
-** - Fitness Area Style
+** - contact Area Style
 ** - Support Area Style
 ** - Contact Area Style
 */
@@ -4639,16 +4639,16 @@ Navigation Area CSS
 }
 
 /*================================================
-Fitness Area CSS
+contact Area CSS
 =================================================*/
-.fitness-image {
+.contact-image {
   z-index: 1;
   margin-bottom: 25px;
   position: relative;
   padding-left: 30px;
   padding-bottom: 30px;
 }
-.fitness-image::before {
+.contact-image::before {
   left: 0;
   bottom: 0;
   z-index: -1;
@@ -4658,11 +4658,11 @@ Fitness Area CSS
   position: absolute;
   background-color: var(--secenderyColor);
 }
-.fitness-image.style-2 {
+.contact-image.style-2 {
   padding-left: 0;
   padding-right: 30px;
 }
-.fitness-image.style-2::before {
+.contact-image.style-2::before {
   left: auto;
   right: 0;
   width: 200px;
@@ -4670,47 +4670,47 @@ Fitness Area CSS
   background-color: var(--blackColor);
 }
 
-.fitness-content {
+.contact-content {
   margin-left: 45px;
   margin-bottom: 25px;
 }
-.fitness-content .title {
+.contact-content .title {
   margin-bottom: 25px;
 }
-.fitness-content .title h2 {
+.contact-content .title h2 {
   font-size: 42px;
   margin-bottom: 12px;
 }
-.fitness-content .list li {
+.contact-content .list li {
   font-weight: 500;
   padding-left: 26px;
   position: relative;
   margin-bottom: 15px;
 }
-.fitness-content .list li i {
+.contact-content .list li i {
   top: -3px;
   left: 0;
   font-size: 20px;
   position: absolute;
   color: var(--primaryColor);
 }
-.fitness-content .list li:last-child {
+.contact-content .list li:last-child {
   margin-bottom: 0;
 }
-.fitness-content.style-2 {
+.contact-content.style-2 {
   margin-left: 0;
   margin-right: 45px;
 }
-.fitness-content.style-2 .fitness-btn {
+.contact-content.style-2 .contact-btn {
   margin-top: 35px;
 }
-.fitness-content.style-2 .fitness-btn li {
+.contact-content.style-2 .contact-btn li {
   margin-right: 30px;
 }
-.fitness-content.style-2 .fitness-btn li .play-btn li {
+.contact-content.style-2 .contact-btn li .play-btn li {
   margin-right: 15px;
 }
-.fitness-content.style-2 .fitness-btn li .play-btn li .icon {
+.contact-content.style-2 .contact-btn li .play-btn li .icon {
   width: 56px;
   height: 56px;
   font-size: 30px;
@@ -4720,35 +4720,35 @@ Fitness Area CSS
   display: inline-block;
   background-color: var(--secenderyColor);
 }
-.fitness-content.style-2 .fitness-btn li .play-btn li .icon i {
+.contact-content.style-2 .contact-btn li .play-btn li .icon i {
   top: 1px;
   left: 2px;
   position: relative;
 }
-.fitness-content.style-2 .fitness-btn li .play-btn li .icon:hover {
+.contact-content.style-2 .contact-btn li .play-btn li .icon:hover {
   color: var(--whiteColor);
   background-color: var(--blackColor);
 }
-.fitness-content.style-2 .fitness-btn li .play-btn li .arrow-btn {
+.contact-content.style-2 .contact-btn li .play-btn li .arrow-btn {
   color: var(--blackColor);
 }
-.fitness-content.style-2 .fitness-btn li .play-btn li .arrow-btn::before {
+.contact-content.style-2 .contact-btn li .play-btn li .arrow-btn::before {
   background-color: var(--blackColor);
 }
-.fitness-content.style-2 .fitness-btn li .play-btn li .arrow-btn:hover {
+.contact-content.style-2 .contact-btn li .play-btn li .arrow-btn:hover {
   color: var(--primaryColor);
 }
-.fitness-content.style-2 .fitness-btn li .play-btn li .arrow-btn:hover::after {
+.contact-content.style-2 .contact-btn li .play-btn li .arrow-btn:hover::after {
   background-color: var(--primaryColor);
 }
-.fitness-content.style-2 .fitness-btn li .play-btn li:last-child {
+.contact-content.style-2 .contact-btn li .play-btn li:last-child {
   margin-right: 0;
 }
-.fitness-content.style-2 .fitness-btn li .default-btn:hover {
+.contact-content.style-2 .contact-btn li .default-btn:hover {
   color: var(--whiteColor) !important;
   background-color: var(--blackColor);
 }
-.fitness-content.style-2 .fitness-btn li:last-child {
+.contact-content.style-2 .contact-btn li:last-child {
   margin-right: 0;
 }
 

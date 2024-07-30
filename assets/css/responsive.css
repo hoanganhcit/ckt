@@ -90,6 +90,8 @@
   }
   .responsive-navbar .offcanvas-header {
     padding: 20px;
+    justify-content: space-between;
+    background: #fff;
   }
   .responsive-navbar .offcanvas-header .close-btn {
     font-size: 18px;

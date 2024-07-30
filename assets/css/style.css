@@ -820,7 +820,7 @@ Responsive Navbar
 }
 .responsive-navbar .offcanvas-header .close-btn {
   transition: var(--transition);
-  color: var(--whiteColor);
+  color: var(--primaryColor);
   font-size: 20px;
   cursor: pointer;
   top: 2px;
@@ -2040,10 +2040,11 @@ Events Area Style
   color: rgba(255, 255, 255, 0.65);
 }
 .single-events-card.pages-style {
-  background-color: #f6f6f6;
+  background-color: #ffffff;
 }
 .single-events-card.pages-style:hover {
   background-color: #002a5c;
+  color: #fff;
 }
 
 /*================================================
@@ -4542,7 +4543,6 @@ Contact Area CSS
 .contact-information {
   padding: 40px;
   background-color: #f6f6f6;
-  margin-top: 74px;
   margin-bottom: 25px;
 }
 .contact-information h3 {
@@ -5052,4 +5052,4 @@ Back to Top Style
   opacity: 1;
   visibility: visible;
   transform: translateY(-95%);
-}/*# sourceMappingURL=style.css.map */
+}
